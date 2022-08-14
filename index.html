@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Jogo Mário Bros</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/apple-touch-icon.png">
+</head>
+<body>
+    <div class="game-board"><!--fundo com personagem-->
+        
+        <img src="./imagens/clouds.png" class="clouds"><!--Numvem-->
+        <img src="./imagens/clouds-gamer.png" class="clouds1"><!--Numvem-->
+        <img src="./imagens/chao.png" class="chao">
+    </div>   
+        
+        <div class="contagem"><!--Timer-->
+            <div class="timer">
+                <span class="minuto">00</span>:<!--Minutos-->
+                <span class="segundo">00</span><!--Segundos-->
+            </div>
+        </div>
+          
+        <img src= "imagens/super-mario.gif" class="mario"><!--Imagem do personagem-->
+        <img src="./imagens/pipe-game.png" class="pipe"><!--Cano para pular-->  
+          
+        
+    </div>
+
+    <div class="tela-game-over"><!--Tela de game over-->
+        <h1>Game Over</h1>        
+        <div class="div-button">
+        <button>Recomeçar</button>
+
+        <h6>by @AlbeluizDev</h6>
+                             
+        </div>
+        
+        <p>Seu tempo foi de:<span class="recorde-minutos"></span> <span class="recorde-segundos">0</span> segundos</p>      
+         
+        
+        </div>
+        
+
+    <!--Audios-->
+    <audio id="play-music" preload="auto" controls class="none"><!--audio do jogo-->
+        <source src="./audio/audio_play.mpeg" type="audio/mpeg">
+    </audio>
+
+    <audio id="game-over-music" preload="auto" controls class="none"><!--audio ao perder-->
+        <source src="audio/audio_game-over-music.mpeg" type="audio/mpeg">
+    </audio>
+    <script src="./js/script.js"></script>
+</body>
+</html>
