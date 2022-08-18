@@ -104,6 +104,7 @@ body{
     border-radius: 5px;
     padding: 20px 100px;
     opacity: 50px;
+    background-position:center;
     background-image: url(../imagens/2014-09-08-super-mario-curiosidades.webp)
 }
 
@@ -252,10 +253,6 @@ button:hover {
         width: 99%;
         padding: 20px 50px;
     }
-    .game-board{
-        height: 450px;
-    }
-
     .mario{
         width: 150px;
         position: absolute;
